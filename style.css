@@ -1,0 +1,54 @@
+body {
+    margin: 0px;
+    background-color: rgb(133, 193, 233);
+
+}
+table {
+    border-collapse: collapse;
+    box-shadow: 2px 2px 4px grey;
+    width: 50%;
+    height: 400px;
+    margin: 20vh auto;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+#row1{
+    background-color: rgb(50, 150, 130);
+}
+#row1 td{
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+
+}
+#row2{
+    background-color: rgb(42, 170, 221);
+    color: white;
+    height: 30px;
+}
+#row2 td{
+    padding: 5px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.row3:nth-child(even){
+    background-color:rgba(32, 158, 207, 0.411);
+}
+.row3{
+    text-align: center;
+}
+.row3 .images img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.row3 .tds{
+    width: 200px;
+    text-align: left;
+}
